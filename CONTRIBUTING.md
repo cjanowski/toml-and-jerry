@@ -15,7 +15,7 @@ TOML and Jerry is a tool for validating JSON/TOML/YAML/HCL configuration files a
 
 2. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/toml-and-jerry.git
+   git clone https://github.com/cjanowski/toml-and-jerry.git
    cd toml-and-jerry
    ```
 
