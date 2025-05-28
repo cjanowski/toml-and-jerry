@@ -60,4 +60,4 @@ Distributed under the MIT License. See `LICENSE` for details.
 
 ## Security & support
 
-If you discover a security vulnerability, please **email coryjanowski\@gmail.com**. We follow responsible disclosure and aim to patch within **72 hours** for critical issues.
+If you discover a security vulnerability, please **email coryjanowski\@gmail.com**. I follow responsible disclosure and aim to patch within **72 hours** for critical issues.
