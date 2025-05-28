@@ -29,6 +29,31 @@ TOML and Jerry is a tool for validating JSON/TOML/YAML/HCL configuration files a
    cargo test
    ```
 
+## Parallel Processing
+
+This project uses [Rayon](https://docs.rs/rayon/latest/rayon/) for parallel processing. When implementing new features that involve processing multiple files or large datasets, consider using Rayon's parallel iterators:
+
+```rust
+use rayon::prelude::*;
+
+// Example: Parallel processing of multiple files
+files.par_iter().for_each(|file| {
+    // Process each file in parallel
+});
+```
+
+Key Rayon features used:
+- `par_iter()` for parallel iteration
+- `par_extend()` for parallel collection building
+- `join()` for parallel task execution
+- `scope()` for structured parallel tasks
+
+When using Rayon, ensure that:
+1. The work being parallelized is CPU-intensive enough to justify the overhead
+2. The parallel code is thread-safe and doesn't introduce race conditions
+3. The parallel implementation is tested with various input sizes
+4. Consider using `rayon::ThreadPoolBuilder` for custom thread pool configuration if needed
+
 ## Code Style
 
 - Follow the [Rust Style Guide](https://doc.rust-lang.org/1.0.0/style/style/naming/README.html)
