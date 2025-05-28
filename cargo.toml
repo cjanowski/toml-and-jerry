@@ -1,7 +1,7 @@
 [package]
 name = "toml-and-jerry"
 version = "1.0.2"
-edition = "2025"
+edition = "2021"
 authors = ["Cory Janowski"]
 description = "Polyglot config validator."
 license = "MIT"
