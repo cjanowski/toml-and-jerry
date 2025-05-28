@@ -1,0 +1,8 @@
+name: my-app-yaml
+version: 3.0.1
+port: 7000
+debug: true
+database:
+  host: yaml-db.example.com
+  port: 5432
+  name: yaml_database 

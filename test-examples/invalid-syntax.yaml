@@ -1,0 +1,7 @@
+name: my-app
+version: 1.0.0
+port: 8080
+database:
+  host: localhost
+    port: 5432  # Invalid indentation
+  name: test_db 

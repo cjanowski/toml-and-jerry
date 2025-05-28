@@ -1,0 +1,8 @@
+{
+  "name": "my-app",
+  "version": "invalid-version",
+  "port": 22,
+  "database": {
+    "host": "localhost"
+  }
+} 

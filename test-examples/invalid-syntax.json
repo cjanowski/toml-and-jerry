@@ -1,0 +1,6 @@
+{
+  "name": "my-app",
+  "version": "1.0.0"
+  "port": 8080,
+  "missing_comma": true
+} 
